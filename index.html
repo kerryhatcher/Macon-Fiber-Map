@@ -1,87 +1,409 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
-  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
-
-  <title>Macon-fiber-map</title>
-  <meta name="description" content="">
-
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
-</head>
-
-<body>
-
-  <div class="wrapper">
-    <header>
-      <h1 class="title">Macon-fiber-map</h1>
-    </header>
-    <div id="container">
-      <p class="tagline"></p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/kerryhatcher/Macon-Fiber-Map/tarball/master" class="download-button tar"><span>Download</span></a>
-          <a href="https://github.com/kerryhatcher/Macon-Fiber-Map/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/kerryhatcher/Macon-Fiber-Map" class="code">View Macon-fiber-map on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          <h3>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </article>
-      </div>
-    </div>
-    <footer>
-      <div class="owner">
-      <p><a href="https://github.com/kerryhatcher" class="avatar"><img src="https://secure.gravatar.com/avatar/cc763bb925375f8868f6cfd4bfa334ca?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="48" height="48"/></a> <a href="https://github.com/kerryhatcher">kerryhatcher</a> maintains <a href="https://github.com/kerryhatcher/Macon-Fiber-Map">Macon-fiber-map</a></p>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
 
 
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br/>theme by <a href="http://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/kerryhatcher/Macon-Fiber-Map/tarball/master" class="tar">tar</a><a href="https://github.com/kerryhatcher/Macon-Fiber-Map/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+  
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/fiber.css">
+        <style>
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+
+            #map_canvas { height: 600px }
+
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1XkdNSJcAXEB3IC09N7XzvH_o5nx5THk&sensor=false"></script>
+        <script type="text/javascript">
+
+            var map;
+
+            var links = {
+
+            "About":
+                {"data": "Coming Soon"},
+
+            "Contact":
+                {"data": "Kerry Hatcher </br> Kerry.hatcher@macon.ga.us"},
+
+            }
+
+            var layers = {
+  
+             "LocalLoop":
+             {"url": "https://maps.google.com/maps/ms?authuser=0&vps=2&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ac6f58b60f202649a", 
+            "name": "Current in use fiber"},             
+              
+             "FireStation109B":
+             {"url": "https://maps.google.com/maps/ms?authuser=0&vps=3&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ce01df563def044a3", 
+            "name": "Proposed Northwest Fiber Project Route B"},     
+
+             "FireStation109A":
+             {"url": "https://maps.google.com/maps/ms?authuser=0&vps=4&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ce01bafd2d8a425e9", 
+            "name": "Proposed Northwest Fiber Project Route A"},      
+              
+             "Southwest":
+             {"url": "https://maps.google.com/maps/ms?authuser=0&vps=3&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004c729e0742344b359e", 
+            "name": "Proposed Southwest Fiber Project"},             
+              
+             "Northeast":
+             {"url": "https://maps.google.com/maps/ms?authuser=0&vps=4&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004c729a104bc08d5a50", 
+            "name": "Proposed Northeast Fiber Project"}, 
+
+             "CityTowers":
+             {"url": "https://maps.google.com/maps/ms?authuser=0&vps=2&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ac701d121cc2c02f7", 
+            "name": "City Towers"},    
+
+             "CityBuildings":
+             {"url": "https://maps.google.com/maps/ms?authuser=0&vps=5&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ac700457d1dea1f53", 
+            "name": "City Buildings"},    
+
+             "PoliceStations":
+             {"url": "https://maps.google.com/maps/ms?authuser=0&vps=6&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ac700998f6aebfcc3", 
+            "name": "Police Stations"},    
+
+             "FireStations":
+             {"url": "https://maps.google.com/maps/ms?authuser=0&vps=5&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ac7008a319bb2bbec", 
+            "name": "Fire Stations"},    
+
+             "Bibbcounty":
+             {"url": "https://maps.google.com/maps/ms?authuser=0&vps=3&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004c0293046e6a4d6b0e", 
+            "name": "Bibb County Outline"},   
+              
+           
+               
+            };
+            
+          function initialize() {
+            var macon = new google.maps.LatLng(32.834722, -83.651667);
+            var mapOptions = {
+              center: macon,
+              zoom: 11,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+
+              	for(var layer in layers) {
+                addOptionItem(layer, layers[layer].img, layers[layer].name);
+                document.getElementById(layer).checked = true;
+                toggleGeoXML(layer, true);
+
+                }
+
+          	for(var link in links) {
+                addLinkItem(link);
+                }
+
+
+          }
+
+            function addOptionItem(id) {
+              var layerOptions = document.createElement("div");
+
+              var inputTD = document.createElement("div");
+              inputTD.id = id + "div";
+              inputTD.className = "OptionInputDiv";
+              var input = document.createElement("input");
+              input.type = "checkbox";
+              input.id = id;
+              input.className = "optioninput";
+              input.onclick = function () { toggleGeoXML(this.id, this.checked) };
+              inputTD.appendChild(input);
+
+              var nameTD = document.createElement("div");
+              nameTD.className = "optionnamediv";
+              var nameA = document.createElement("a");
+              nameA.href = layers[id].url;
+              nameA.className = "optionnameLink";
+              var name = document.createTextNode(layers[id].name);
+              nameA.appendChild(name);
+              nameTD.appendChild(nameA);
+             
+
+              layerOptions.appendChild(inputTD);
+              layerOptions.appendChild(nameTD);
+              document.getElementById("OptionMenu").appendChild(layerOptions);
+            }
+
+            function zoomToGeoXML(geoXml) {
+              var center = geoXml.getDefaultCenter();
+              var span = geoXml.getDefaultSpan();
+              var sw = new GLatLng(center.lat() - span.lat() / 2,
+                                   center.lng() - span.lng() / 2);
+              var ne = new GLatLng(center.lat() + span.lat() / 2,
+                                   center.lng() + span.lng() / 2);
+              var bounds = new GLatLngBounds(sw, ne);
+              map.setCenter(center);
+              map.setZoom(map.getBoundsZoomLevel(bounds));
+            }
+
+            function toggleGeoXML(id, checked) {
+              if (checked) {
+                            if (!layers[id].geoxml) {
+		
+                              var geoXml = new google.maps.KmlLayer(layers[id].url, {preserveViewport: true})
+                              layers[id].geoXml = geoXml;
+	                          geoXml.setMap(map);
+                            //map.addOverlay(layers[id].geoXml);
+                            }
+                
+              
+              } else  {	
+                layers[id].geoXml.setMap(null);
+                
+
+              }
+            }
+
+
+          
+
+
+            
+
+              $(document).ready(function() {
 
   
-</body>
+                
+                        $('#hero-unit').collapse('hide')
+                        
+                        $('#hero-unit').addClass('Hidden');
+
+                        HideAllHeros ();
+                        
+                    
+                        $("#hero-unit").click(function () {
+
+                            $('#hero-unit').addClass('Hidden')
+
+                        });
+
+                        $(".home-link").click(function () {
+                            HideAllHeros ();
+
+
+                            $('#hero-unit').addClass('Hidden')
+
+                            
+
+                        });
+
+                        
+
+                        $(".about-link").click(function () {
+                            HideAllHeros ();
+
+                            $('#hero-unit').removeClass('Hidden')
+
+
+                            $('.about').removeClass('Hidden')
+
+                            $('#hero-unit').collapse('show')
+
+                        });
+
+                        $(".northwest-link").click(function () {
+                            HideAllHeros ();
+
+                            $('#hero-unit').removeClass('Hidden')
+
+                            $('.northwest').removeClass('Hidden')
+                            
+                            $('#hero-unit').collapse('show')
+
+                        });
+
+                        $(".northeast-link").click(function () {
+                            HideAllHeros ();
+
+                            $('#hero-unit').removeClass('Hidden')
+
+                            $('.northeast').removeClass('Hidden')
+
+                            $('#hero-unit').collapse('show')
+
+                        });
+
+                        $(".southwest-link").click(function () {
+                            HideAllHeros ();
+
+                            $('#hero-unit').removeClass('Hidden')
+
+                            $('.southwest').removeClass('Hidden')
+
+                            $('#hero-unit').collapse('show')
+
+                        });
+                   
+
+                    
+
+                    
+                
+             
+
+              });
+
+
+        function HideAllHeros ()
+{
+
+                        $('.about').addClass('Hidden')
+                        $('.northwest').addClass('Hidden')
+                        $('.northeast').addClass('Hidden')
+                        $('.southwest').addClass('Hidden')
+
+}
+
+
+        </script>
+
+
+
+    </head>
+    <body onload="initialize()">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand home-link" href="#">City Of Macon Fiber</a>
+                    <div class="nav-collapse collapse">
+                        <ul id="nav" class="nav">
+                            <li class="active"><a id="home-link" class="home-link" href="#">Home</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="northwest-link" href="#">Northwest</a></li>
+                                    <li><a class="northeast-link" href="#">Northeast</a></li>
+                                    <li><a class="southwest-link" href="#">Southwest</a></li>
+                                    
+                                </ul>
+                            <li><a id="about-link" class="about-link" href="#">About</a></li>
+                            </li>
+                        </ul>
+                        <!--<form class="navbar-form pull-right">
+                            <input class="span2" type="text" placeholder="Email">
+                            <input class="span2" type="password" placeholder="Password">
+                            <button type="submit" class="btn">Sign in</button>
+                        </form>-->
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <!-- Main hero unit for a primary marketing message or call to action -->
+            <div id="hero-unit" class="hero-unit collapse">
+                
+
+                <div class="about">
+
+                    <h1 class="hidden-phone">About</h1>
+                    <p>Coming Soon</p>
+
+                </div>
+
+               <div class="northwest">
+
+                    <h1 class="hidden-phone">Northwest</h1>
+                    <p>Coming Soon</p>
+
+                </div>
+
+               <div class="northeast">
+
+                    <h1 class="hidden-phone">Northeast</h1>
+                    <p>Coming Soon</p>
+
+                </div>
+
+               <div class="southwest">
+
+                    <h1 class="hidden-phone">Southwest</h1>
+                    <p>Coming Soon</p>
+
+                </div>
+
+                 
+
+
+                <!--<p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>-->
+            </div>
+
+            
+
+ <!-- Example row of columns -->
+      <div class="row">
+        <div class="span9">
+          
+          <p><div id="map_canvas"></div></p>
+          
+        </div>
+        <div class="span3">
+          
+          <p><div id="OptionMenu"></div> </p>
+          
+       </div>
+      </div>
+
+
+            <hr>
+
+            <footer>
+                <!--<p>&copy; City Of Macon 2012</p>-->
+
+                <p><a class="thumbnail" href="https://github.com/kerryhatcher/Macon-Fiber-Map"><img src="https://github.com/github/media/blob/master/logos/github_logo_social_coding_outlined.png?raw=true" /></a></p>
+            </footer>
+
+        </div> <!-- /container -->
+
+
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
+
+
+
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+
+
+
+
+    </body>
 </html>

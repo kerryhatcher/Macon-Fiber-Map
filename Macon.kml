@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>City Of Macon</name>
+	<open>1</open>
+	<Folder>
+		<name>Fiber</name>
+		<Document>
+			<name>P1 Fiber Run</name>
+			<description>Path for fiber to P1</description>
+			<NetworkLink>
+				<name>P1 Fiber Run</name>
+				<Link>
+					<href>http://maps.google.com/maps/ms?authuser=0&amp;vps=1&amp;hl=en&amp;ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=216496306373642223874.0004c729a104bc08d5a50&amp;output=kml</href>
+				</Link>
+			</NetworkLink>
+		</Document>
+		<Document>
+			<name>P2 Fiber Run</name>
+			<NetworkLink>
+				<name>P2 Fiber Run</name>
+				<open>1</open>
+				<Link>
+					<href>http://maps.google.com/maps/ms?authuser=0&amp;vps=2&amp;hl=en&amp;ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=216496306373642223874.0004c729e0742344b359e&amp;output=kml</href>
+				</Link>
+			</NetworkLink>
+		</Document>
+		<Folder>
+			<name>Fire Station 109</name>
+			<Document>
+				<name>Fire Station 109 A</name>
+				<open>1</open>
+				<NetworkLink>
+					<name>Fire Station 109 A</name>
+					<open>1</open>
+					<Link>
+						<href>http://maps.google.com/maps/ms?authuser=0&amp;vps=2&amp;ie=UTF8&amp;hl=en&amp;oe=UTF8&amp;msa=0&amp;msid=216496306373642223874.0004ce01bafd2d8a425e9&amp;output=kml</href>
+					</Link>
+				</NetworkLink>
+			</Document>
+			<Document>
+				<name>Fire Station 109 B</name>
+				<open>1</open>
+				<NetworkLink>
+					<name>Fire Station 109 B</name>
+					<open>1</open>
+					<Link>
+						<href>http://maps.google.com/maps/ms?authuser=0&amp;vps=2&amp;ie=UTF8&amp;hl=en&amp;oe=UTF8&amp;msa=0&amp;msid=216496306373642223874.0004ce01df563def044a3&amp;output=kml</href>
+					</Link>
+				</NetworkLink>
+			</Document>
+		</Folder>
+	</Folder>
+	<Document>
+		<name>Police.kml</name>
+		<NetworkLink>
+			<name>Police.kml</name>
+			<Link>
+				<href>http://maps.google.com/maps/ms?authuser=0&amp;vps=4&amp;ie=UTF8&amp;hl=en&amp;oe=UTF8&amp;msa=0&amp;msid=216496306373642223874.0004ac700998f6aebfcc3&amp;output=kml</href>
+			</Link>
+		</NetworkLink>
+	</Document>
+	<Document>
+		<name>Local Loop.kml</name>
+		<NetworkLink>
+			<name>Local Loop.kml</name>
+			<Link>
+				<href>http://maps.google.com/maps/ms?authuser=0&amp;vps=2&amp;ie=UTF8&amp;hl=en&amp;oe=UTF8&amp;msa=0&amp;msid=216496306373642223874.0004ac6f58b60f202649a&amp;output=kml</href>
+			</Link>
+		</NetworkLink>
+	</Document>
+	<Document>
+		<name>City Buildings.kml</name>
+		<NetworkLink>
+			<name>City Buildings.kml</name>
+			<Link>
+				<href>http://maps.google.com/maps/ms?authuser=0&amp;vps=5&amp;ie=UTF8&amp;hl=en&amp;oe=UTF8&amp;msa=0&amp;msid=216496306373642223874.0004ac700457d1dea1f53&amp;output=kml</href>
+			</Link>
+		</NetworkLink>
+	</Document>
+	<Document>
+		<name>Fire.kml</name>
+		<NetworkLink>
+			<name>Fire.kml</name>
+			<Link>
+				<href>http://maps.google.com/maps/ms?authuser=0&amp;vps=4&amp;ie=UTF8&amp;hl=en&amp;oe=UTF8&amp;msa=0&amp;msid=216496306373642223874.0004ac7008a319bb2bbec&amp;output=kml</href>
+			</Link>
+		</NetworkLink>
+	</Document>
+</Folder>
+</kml>
