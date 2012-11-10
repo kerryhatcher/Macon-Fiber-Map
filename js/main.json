@@ -1,6 +1,4 @@
 {
-
-"kml" : [
              "LocalLoop":
              {"url": "https://maps.google.com/maps/ms?authuser=0&vps=2&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ac6f58b60f202649a", 
             "name": "Current in use fiber"},             
@@ -40,6 +38,4 @@
              "Bibbcounty":
              {"url": "https://maps.google.com/maps/ms?authuser=0&vps=3&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004c0293046e6a4d6b0e", 
             "name": "Bibb County Outline"},   
-            
-            ]
 }
