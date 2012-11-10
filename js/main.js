@@ -136,11 +136,7 @@
             }
 
 
-          function AlertJson(json) {
-          	
-          	alert("JSON Data: " + json.kml["LocalLoop"].name );
-          	
-          }
+
 
 
             
@@ -149,16 +145,7 @@
               	
               	
               			$.getJSON('js/main.json', function(data) {
-						  var items = [];
-						
-						  $.each(data, function(key, val) {
-						    items.push('<li id="' + key + '">' + val + '</li>');
-						  });
-						
-						  $('<ul/>', {
-						    'class': 'my-new-list',
-						    html: items.join('')
-						  }).appendTo('body');
+						  alert("JSON Data: " + data );
 						});
 
   
