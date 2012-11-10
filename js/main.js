@@ -136,7 +136,11 @@
             }
 
 
-          
+          function AlertJson(json) {
+          	
+          	alert("JSON Data: " + json.kml["LocalLoop"].name );
+          	
+          }
 
 
             
@@ -144,9 +148,7 @@
               $(document).ready(function() {
               	
               	
-              			$.getJSON("js/main.json", function(json) {
-					   			 alert("JSON Data: " );
-					    });
+              			$.getJSON("js/main.json", AlertJson(json));
 
   
                 
