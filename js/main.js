@@ -145,7 +145,7 @@
               	
               	
               			$.getJSON("js/main.json", function(json) {
-					   			 alert("JSON Data: " + kml["LocalLoop"].name);
+					   			 alert("JSON Data: " + this.kml["LocalLoop"].name);
 					    });
 
   
