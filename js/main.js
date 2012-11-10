@@ -72,9 +72,7 @@
 
                 }
 
-          	for(var link in links) {
-                addLinkItem(link);
-                }
+    
 
 
           }
