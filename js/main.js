@@ -144,6 +144,11 @@
             
 
               $(document).ready(function() {
+              	
+              	
+              			$.getJSON("/js/main.json", function(json) {
+					   			 alert("JSON Data: " + kml["LocalLoop"].name);
+					    });
 
   
                 
@@ -196,7 +201,7 @@
                         });
 
                         $(".northeast-link").click(function () {
-                            HideAllHeros ();
+                            HideAllHeros();
 
                             $('#hero-unit').removeClass('Hidden')
 
