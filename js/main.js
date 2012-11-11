@@ -229,6 +229,7 @@
                             
                             $('#hero-title').append(JSONdata.Southwest.name);
                             $('#hero-data').append(JSONdata.Southwest.about);
+                            console.log(JSONdata.Southwest.about)
 
 
                         });
