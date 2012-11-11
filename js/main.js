@@ -187,6 +187,9 @@
                             $('.about').removeClass('Hidden')
 
                             $('#hero-unit').collapse('show')
+                            
+                            $('#hero-title').append(JSONdata.About.name);
+                            $('#hero-data').append(JSONdata.About.data);
 
                         });
 
@@ -198,6 +201,10 @@
                             $('.northwest').removeClass('Hidden')
                             
                             $('#hero-unit').collapse('show')
+                            
+                            $('#hero-title').append(JSONdata.Northwest.name);
+                            $('#hero-data').append(JSONdata.Northwest.data);
+
 
                         });
 
@@ -206,11 +213,11 @@
 
                             $('#hero-unit').removeClass('Hidden')
 
-                            $('.northeast').removeClass('Hidden')
-
                             $('#hero-unit').collapse('show')
                             
                             $('#hero-title').append(JSONdata.Northeast.name);
+                            $('#hero-data').append(JSONdata.Northeast.data);
+
 
                         });
 
@@ -219,9 +226,11 @@
 
                             $('#hero-unit').removeClass('Hidden')
 
-                            $('.southwest').removeClass('Hidden')
-
                             $('#hero-unit').collapse('show')
+                            
+                            $('#hero-title').append(JSONdata.Southwest.name);
+                            $('#hero-data').append(JSONdata.Southwest.data);
+
 
                         });
                    
@@ -237,11 +246,14 @@
 
         function HideAllHeros ()
 {
-
+						$('#hero-title').empty();
+                        $('#hero-data').empty();
                         $('.about').addClass('Hidden')
                         $('.northwest').addClass('Hidden')
                         $('.northeast').addClass('Hidden')
                         $('.southwest').addClass('Hidden')
 
 }
+
+		
 
