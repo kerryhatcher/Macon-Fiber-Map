@@ -1,1 +1,42 @@
-{"Bibbcounty":{"url":"https://maps.google.com/maps/ms?authuser=0&vps=3&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004c0293046e6a4d6b0e","name":"Bibb County Outline"},"Northeast":{"url":"https://maps.google.com/maps/ms?authuser=0&vps=4&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004c729a104bc08d5a50","name":"Proposed Northeast Fiber Project"},"CityBuildings":{"url":"https://maps.google.com/maps/ms?authuser=0&vps=5&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ac700457d1dea1f53","name":"City Buildings"},"LocalLoop":{"url":"https://maps.google.com/maps/ms?authuser=0&vps=2&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ac6f58b60f202649a","name":"Current in use fiber"},"FireStation109B":{"url":"https://maps.google.com/maps/ms?authuser=0&vps=3&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ce01df563def044a3","name":"Proposed Northwest Fiber Project Route B"},"PoliceStations":{"url":"https://maps.google.com/maps/ms?authuser=0&vps=6&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ac700998f6aebfcc3","name":"Police Stations"},"CityTowers":{"url":"https://maps.google.com/maps/ms?authuser=0&vps=2&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ac701d121cc2c02f7","name":"City Towers"},"Southwest":{"url":"https://maps.google.com/maps/ms?authuser=0&vps=3&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004c729e0742344b359e","name":"Proposed Southwest Fiber Project"},"FireStation109A":{"url":"https://maps.google.com/maps/ms?authuser=0&vps=4&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ce01bafd2d8a425e9","name":"Proposed Northwest Fiber Project Route A"},"FireStations":{"url":"https://maps.google.com/maps/ms?authuser=0&vps=5&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ac7008a319bb2bbec","name":"Fire Stations"}}
+{
+  "Bibbcounty" : {
+    "url" : "https://maps.google.com/maps/ms?authuser=0&vps=3&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004c0293046e6a4d6b0e",
+    "name" : "Bibb County Outline"
+  },
+  "Northeast" : {
+    "url" : "https://maps.google.com/maps/ms?authuser=0&vps=4&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004c729a104bc08d5a50",
+    "name" : "Proposed Northeast Fiber Project"
+  },
+  "CityBuildings" : {
+    "url" : "https://maps.google.com/maps/ms?authuser=0&vps=5&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ac700457d1dea1f53",
+    "name" : "City Buildings"
+  },
+  "LocalLoop" : {
+    "url" : "https://maps.google.com/maps/ms?authuser=0&vps=2&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ac6f58b60f202649a",
+    "name" : "Current in use fiber"
+  },
+  "FireStation109B" : {
+    "url" : "https://maps.google.com/maps/ms?authuser=0&vps=3&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ce01df563def044a3",
+    "name" : "Proposed Northwest Fiber Project Route B"
+  },
+  "PoliceStations" : {
+    "url" : "https://maps.google.com/maps/ms?authuser=0&vps=6&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ac700998f6aebfcc3",
+    "name" : "Police Stations"
+  },
+  "CityTowers" : {
+    "url" : "https://maps.google.com/maps/ms?authuser=0&vps=2&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ac701d121cc2c02f7",
+    "name" : "City Towers"
+  },
+  "Southwest" : {
+    "url" : "https://maps.google.com/maps/ms?authuser=0&vps=3&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004c729e0742344b359e",
+    "name" : "Proposed Southwest Fiber Project"
+  },
+  "FireStation109A" : {
+    "url" : "https://maps.google.com/maps/ms?authuser=0&vps=4&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ce01bafd2d8a425e9",
+    "name" : "Proposed Northwest Fiber Project Route A"
+  },
+  "FireStations" : {
+    "url" : "https://maps.google.com/maps/ms?authuser=0&vps=5&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004ac7008a319bb2bbec",
+    "name" : "Fire Stations"
+  }
+}
