@@ -137,6 +137,9 @@
 
 
 
+$.getJSON('js/main.json', function(data) {
+						  alert("JSON Data: " + data );
+						});
 
 
             
@@ -144,11 +147,8 @@
               $(document).ready(function() {
               	
               	
-              			$.getJSON('js/main.json', function(data) {
-						  alert("JSON Data: " + data );
-						});
+              			
 
-  						 alert("JSON Data: ");
                 
                         $('#hero-unit').collapse('hide')
                         
