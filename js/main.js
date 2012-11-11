@@ -148,12 +148,13 @@
               	
               			$.getJSON('js/main.json', function(data) {
 						JSONdata = data;
+						  console.log("js/main.json loaded. testing now...")
 						  console.log("JSON Data: " + JSONdata.Northeast.name );
 						});
               			
 
                 
-                        $('#hero-unit').collapse('hide')
+                        $('#hero-unit').collapse('hide');
                         
                         $('#hero-unit').addClass('Hidden');
 
@@ -162,7 +163,7 @@
                     
                         $("#hero-unit").click(function () {
 
-                            $('#hero-unit').addClass('Hidden')
+                            $('#hero-unit').addClass('Hidden');
 
                         });
 
@@ -170,7 +171,7 @@
                             HideAllHeros ();
 
 
-                            $('#hero-unit').addClass('Hidden')
+                            $('#hero-unit').addClass('Hidden');
 
                             
 
@@ -181,30 +182,28 @@
                         $(".about-link").click(function () {
                             HideAllHeros ();
 
-                            $('#hero-unit').removeClass('Hidden')
+                            $('#hero-unit').removeClass('Hidden');
 
-
-                            $('.about').removeClass('Hidden')
-
-                            $('#hero-unit').collapse('show')
+                            $('#hero-unit').collapse('show');
                             
                             $('#hero-title').append(JSONdata.About.name);
                             $('#hero-data').append(JSONdata.About.data);
+                            
 
                         });
 
                         $(".northwest-link").click(function () {
                             HideAllHeros ();
 
-                            $('#hero-unit').removeClass('Hidden')
+                            $('#hero-unit').removeClass('Hidden');
 
-                            $('.northwest').removeClass('Hidden')
+                            $('.northwest').removeClass('Hidden');
                             
-                            $('#hero-unit').collapse('show')
+                            $('#hero-unit').collapse('show');
                             
                             $('#hero-title').append(JSONdata.Northwest.name);
                             $('#hero-data').append(JSONdata.Northwest.data);
-
+ 							console.log(JSONdata.Northwest.data);
 
                         });
 
