@@ -138,7 +138,7 @@
 
 
 				$.getJSON('js/main.json', function(data) {
-						  console.log("JSON Data: " + data.LocalLoop );
+						  console.log("JSON Data: " + data.LocalLoop.name );
 						});
 
 
