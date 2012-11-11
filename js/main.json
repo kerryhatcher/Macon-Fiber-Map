@@ -1,9 +1,14 @@
 {
+  "About" : {
+    "data" : "This page serves as a central repository of information relating to expanding the City Of Macon's fiber optic infrastructure. It is not official and not intended for the general public.\n\nFor more information please contact:\n\nKerry Hatcher\nkerry.hatcher@macon.ga.us",
+    "title" : "about"
+  },
   "Bibbcounty" : {
     "url" : "https://maps.google.com/maps/ms?authuser=0&vps=3&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004c0293046e6a4d6b0e",
     "name" : "Bibb County Outline"
   },
   "Northeast" : {
+    "about" : "Coming soon",
     "url" : "https://maps.google.com/maps/ms?authuser=0&vps=4&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004c729a104bc08d5a50",
     "name" : "Proposed Northeast Fiber Project"
   },
