@@ -138,7 +138,7 @@
 
 
 				$.getJSON('js/main.json', function(data) {
-						  console.log("JSON Data: " + data[0].name );
+						  console.log("JSON Data: " + data );
 						});
 
 
