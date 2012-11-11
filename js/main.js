@@ -187,7 +187,7 @@
                             $('#hero-unit').collapse('show');
                             
                             $('#hero-title').append(JSONdata.About.name);
-                            $('#hero-data').append(JSONdata.About.data);
+                            $('#hero-data').append(JSONdata.About.about);
                             
 
                         });
@@ -202,8 +202,8 @@
                             $('#hero-unit').collapse('show');
                             
                             $('#hero-title').append(JSONdata.Northwest.name);
-                            $('#hero-data').append(JSONdata.Northwest.data);
- 							console.log(JSONdata.Northwest.data);
+                            $('#hero-data').append(JSONdata.Northwest.about);
+ 							console.log(JSONdata.Northwest.about);
 
                         });
 
@@ -215,7 +215,7 @@
                             $('#hero-unit').collapse('show')
                             
                             $('#hero-title').append(JSONdata.Northeast.name);
-                            $('#hero-data').append(JSONdata.Northeast.data);
+                            $('#hero-data').append(JSONdata.Northeast.about);
 
 
                         });
@@ -228,7 +228,7 @@
                             $('#hero-unit').collapse('show')
                             
                             $('#hero-title').append(JSONdata.Southwest.name);
-                            $('#hero-data').append(JSONdata.Southwest.data);
+                            $('#hero-data').append(JSONdata.Southwest.about);
 
 
                         });
