@@ -9,6 +9,8 @@
                 {"data": "Kerry Hatcher </br> Kerry.hatcher@macon.ga.us"},
 
             }
+            
+            var JSONdata;
 
             var layers = {
   
@@ -137,16 +139,17 @@
 
 
 
-				$.getJSON('js/main.json', function(data) {
-						  console.log("JSON Data: " + data.LocalLoop.name );
-						});
+		
 
 
             
 
               $(document).ready(function() {
               	
-              	
+              			$.getJSON('js/main.json', function(data) {
+						JSONdata = data;
+						  console.log("JSON Data: " + JSONdata.Northeast.name );
+						});
               			
 
                 
