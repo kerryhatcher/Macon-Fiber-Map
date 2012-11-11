@@ -148,7 +148,7 @@
 						  alert("JSON Data: " + data );
 						});
 
-  
+  						 alert("JSON Data: ");
                 
                         $('#hero-unit').collapse('hide')
                         
