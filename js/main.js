@@ -209,6 +209,8 @@
                             $('.northeast').removeClass('Hidden')
 
                             $('#hero-unit').collapse('show')
+                            
+                            $('#hero-title').append(JSONdata.Northeast.name);
 
                         });
 
