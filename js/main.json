@@ -37,6 +37,7 @@
     "name" : "City Towers"
   },
   "Southwest" : {
+    "about" : "Coming soon",
     "url" : "https://maps.google.com/maps/ms?authuser=0&vps=3&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004c729e0742344b359e",
     "name" : "Proposed Southwest Fiber Project"
   },
