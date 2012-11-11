@@ -137,8 +137,8 @@
 
 
 
-$.getJSON('js/main.json', function(data) {
-						  alert("JSON Data: " + data );
+				$.getJSON('js/main.json', function(data) {
+						  console.log("JSON Data: " + data.km[0].namel );
 						});
 
 
