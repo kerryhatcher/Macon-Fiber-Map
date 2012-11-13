@@ -1,6 +1,6 @@
 {
   "Northwest" : {
-    "about" : "coming soon",
+    "about" : "The Northwest project is the most ambitious of the three projects. Included are two different options. Option A is a direct run, however it is only slightly less costly that Option B and connects less than half of the buildings. ",
     "name" : "Proposed Northwest Fiber Project"
   },
   "About" : {
@@ -12,7 +12,7 @@
     "name" : "Bibb County Outline"
   },
   "Northeast" : {
-    "about" : "Coming soon",
+    "about" : "This run would make use of preexisting fiber that was run across the river to the Centraplex a few years ago. It would terminate at the end of that fiber. Then it would cut across the neighborhood to the east of Coliseum Drive along Church St, connecting to Fort Hill St. and then on the shopping center on the other side of Shurling Dr. Estimated length of run is approximately 1.85 Miles, at a rough estimate of $55,500.",
     "url" : "https://maps.google.com/maps/ms?authuser=0&vps=4&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004c729a104bc08d5a50",
     "name" : "Proposed Northeast Fiber Project"
   },
@@ -37,7 +37,7 @@
     "name" : "City Towers"
   },
   "Southwest" : {
-    "about" : "Coming soon",
+    "about" : "This run would start (terminate) at the Fire Administration Building located at 1191 First St. Then it would run aerial via poles to Hazel and turn south down 2nd St all the way to the Crime Lab located at the intersection of 2nd and Houston Ave (2654 Houston Avenue). <br/> Estimated length of run is approximately 1.59 miles, at a rough estimate of $47,700.",
     "url" : "https://maps.google.com/maps/ms?authuser=0&vps=3&ie=UTF8&msa=0&output=kml&msid=216496306373642223874.0004c729e0742344b359e",
     "name" : "Proposed Southwest Fiber Project"
   },
